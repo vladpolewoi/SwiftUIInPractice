@@ -21,8 +21,8 @@ struct ImageLoaderView: View {
           .indicator(.activity)
           .aspectRatio(contentMode: resizingMode)
           .allowsHitTesting(false)
-          .clipped()
       )
+      .clipped()
   }
 }
 
